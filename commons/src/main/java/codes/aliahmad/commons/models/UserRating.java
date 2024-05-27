@@ -1,15 +1,16 @@
 package codes.aliahmad.commons.models;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Rating
+public class UserRating
 {
-  private String movieId;
-  private int rating;
+  private List<Rating> ratings;
+
 }
