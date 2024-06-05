@@ -10,6 +10,7 @@
   <description>movie-catalog</description>
 
   <modules>
+    <module>config-server</module>
     <module>discovery-server</module>
     <module>movie-catalog-service</module>
     <module>movie-info-service</module>
